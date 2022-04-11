@@ -26,7 +26,7 @@ bool SocketClient::create_socket(){
         return false;
     }
 
-    cout<<"Client socket connected!!!"<<endl;
+    cout<<"Client socket connected!"<<endl;
 
     return true;
 }

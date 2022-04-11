@@ -31,11 +31,8 @@ public:
     bool receive();
     void close_socket();
 
-
-    void send_message_to_server(const char* message);
 private:
 
-    static void* receive_message_from_server(void* object);
 };
 
 #endif // SOCKETCLIENT_H

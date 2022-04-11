@@ -9,6 +9,7 @@ int main() {
     socket->send_Msg();
     socket->receive();
     socket->send_Msg();
+    cout<<"ssss";
 
     socket->close_socket();
 
